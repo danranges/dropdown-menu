@@ -1,4 +1,4 @@
-function addDropdownEvents(dropdown, button) {
+export default function addDropdownEvents(dropdown, button) {
   document.addEventListener('click', (e) => {
     const isDropdownButton = e.target.matches(`[${button}]`);
 
